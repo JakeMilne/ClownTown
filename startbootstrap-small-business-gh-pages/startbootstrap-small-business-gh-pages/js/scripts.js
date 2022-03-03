@@ -5,3 +5,14 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+function hiddenClown(sw) {
+    var dis;
+    if (sw == 0) {
+      dis = "display: block;"
+    } else {
+      dis = "display: none;"
+    }
+    document.getElementById('hiddenClown').style = dis;
+  }
+  

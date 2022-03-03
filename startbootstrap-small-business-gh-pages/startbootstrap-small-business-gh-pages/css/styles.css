@@ -1397,6 +1397,11 @@ progress {
     width: 58.33333333%;
   }
 
+  .clownImage:hover{
+    height:400px;
+    width:400px;
+  }
+
   .col-lg-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
